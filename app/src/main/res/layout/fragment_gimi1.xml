@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bkkkkgga"
+    android:layout_height="match_parent"
+    tools:context=".ffffffffraa.Gimi1Fragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_95gttg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_50fgrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_05gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_95gtgtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_05gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <ImageView
+        android:id="@+id/img_titple_gamefrrfr"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/loooooooooo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/slot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_titple_gamefrrfr"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95gttg"/>
+
+
+
+    <ImageView
+        android:id="@+id/imgsettings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/sasha_set"
+        app:layout_constraintEnd_toStartOf="@id/img_info"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_05gt" />
+
+    <ImageView
+        android:id="@+id/img_info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/sasha_info"
+        app:layout_constraintStart_toEndOf="@id/imgsettings"
+        app:layout_constraintEnd_toStartOf="@id/clooose"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_05gt" />
+
+
+    <ImageView
+        android:id="@+id/clooose"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/sasha_close"
+        app:layout_constraintStart_toEndOf="@id/img_info"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_05gt" />
+
+
+    <ImageView
+        android:id="@+id/img_next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingEnd="16dp"
+        android:rotation="180"
+        android:src="@drawable/sasha_fortune_elem_pointer"
+        app:layout_constraintTop_toTopOf="@id/img_titple_gamefrrfr"
+        app:layout_constraintBottom_toBottomOf="@id/img_titple_gamefrrfr"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"/>
+
+    <ImageView
+        android:id="@+id/img_previous"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingEnd="16dp"
+        android:src="@drawable/sasha_fortune_elem_pointer"
+        app:layout_constraintTop_toTopOf="@id/img_titple_gamefrrfr"
+        app:layout_constraintBottom_toBottomOf="@id/img_titple_gamefrrfr"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_dovn_text_looogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="© Miraculous Spike"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_95gttg" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

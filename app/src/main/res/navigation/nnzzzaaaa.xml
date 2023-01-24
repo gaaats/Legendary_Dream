@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nnzzzaaaa"
+    app:startDestination="@id/b1Fragment">
+
+    <fragment
+        android:id="@+id/b1Fragment"
+        android:name="com.rvappstudios.montessori.math.games.kids.number.countin.fffaaafrrfrfr.B1Fragment"
+        android:label="fragment_b1"
+        tools:layout="@layout/fragment_b1" >
+        <action
+            android:id="@+id/action_b1Fragment_to_b2Fragment"
+            app:destination="@id/b2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b2Fragment"
+        android:name="com.rvappstudios.montessori.math.games.kids.number.countin.fffaaafrrfrfr.B2Fragment"
+        android:label="fragment_b2"
+        tools:layout="@layout/fragment_b2" >
+        <action
+            android:id="@+id/action_b2Fragment_to_b3Fragment"
+            app:destination="@id/b3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b3Fragment"
+        android:name="com.rvappstudios.montessori.math.games.kids.number.countin.fffaaafrrfrfr.B3Fragment"
+        android:label="fragment_b3"
+        tools:layout="@layout/fragment_b3" >
+        <action
+            android:id="@+id/action_b3Fragment_to_b4Fragment"
+            app:destination="@id/b4Fragment" />
+        <action
+            android:id="@+id/action_b3Fragment_to_gimi1Fragment"
+            app:destination="@id/gimi1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b4Fragment"
+        android:name="com.rvappstudios.montessori.math.games.kids.number.countin.fffaaafrrfrfr.B4Fragment"
+        android:label="fragment_b4"
+        tools:layout="@layout/fragment_b4" >
+        <action
+            android:id="@+id/action_b4Fragment_to_gimi1Fragment"
+            app:destination="@id/gimi1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gimi1Fragment"
+        android:name="com.rvappstudios.montessori.math.games.kids.number.countin.ffffffffraa.Gimi1Fragment"
+        android:label="fragment_gimi1"
+        tools:layout="@layout/fragment_gimi1" >
+        <action
+            android:id="@+id/action_gimi1Fragment_to_gimmi2Fragment"
+            app:destination="@id/gimmi2Fragment" />
+        <action
+            android:id="@+id/action_gimi1Fragment_to_gimiSettingsFragment"
+            app:destination="@id/gimiSettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gimmi2Fragment"
+        android:name="com.rvappstudios.montessori.math.games.kids.number.countin.ffffffffraa.Gimmi2Fragment"
+        android:label="fragment_gimmi2"
+        tools:layout="@layout/fragment_gimmi2" />
+    <fragment
+        android:id="@+id/gimiSettingsFragment"
+        android:name="com.rvappstudios.montessori.math.games.kids.number.countin.ffffffffraa.GimiSettingsFragment"
+        android:label="fragment_gimi_settings"
+        tools:layout="@layout/fragment_gimi_settings" >
+        <action
+            android:id="@+id/action_gimiSettingsFragment_to_gimi1Fragment"
+            app:destination="@id/gimi1Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gimi1Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
